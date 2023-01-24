@@ -1,0 +1,60 @@
+.title-primary {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #174dba;
+}
+
+.title-primary-lg {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #174dba;
+}
+
+.text-nome {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.content-primary {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #174dba;
+}
+
+.content-gray-lg {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  color: #eff0f3;
+}
+
+.content-gray {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #888888;
+}
+
+.card-name {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #174dba;
+}
+
+.card-content {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+.error-message {
+  color: red;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+}

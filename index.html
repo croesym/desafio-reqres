@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/logo-reqres.png" alt="logo" />
+    </header>
+
+    <div class="container">
+      <div class="box">
+        <h1 class="title-primary" id="login-tittle">Acessar</h1>
+        <form id="login">
+          <h3 class="content-primary" for="username">E-mail</h3>
+          <input type="email" name="username" id="username" placeholder="" />
+
+          <h3 class="content-primary" for="password">Senha</h3>
+          <input type="password" name="password" id="password" placeholder="" />
+          <button
+            class="submitButton"
+            type="submit"
+            name="login"
+            id="loginbutton"
+          >
+            ENTRAR
+          </button>
+        </form>
+        <p class="content-gray">
+          Não possui conta?<a href="./cadastro.html" class="botao">
+            Cadastre-se aqui
+          </a>
+        </p>
+        <div class="error-message" id="login-error"></div>
+      </div>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>

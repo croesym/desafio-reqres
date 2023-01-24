@@ -1,0 +1,102 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* margin: auto; */
+
+  width: 37.5rem;
+  /* height: 25rem; */
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+}
+
+.box form {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.box h4 {
+  margin: 10px 0;
+}
+
+.container {
+  padding-top: 55px;
+}
+
+p,
+h1 {
+  margin: 1.5rem auto;
+}
+
+form input,
+p {
+  margin: 0;
+}
+
+.gender input {
+  width: 15px;
+  margin: 0;
+}
+
+.gender div {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.password p {
+  font-size: 13px;
+  color: #888888;
+}
+
+.password-confirm {
+  margin-bottom: 15px;
+}
+
+.error-message {
+  position: fixed;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 549px) {
+  .box {
+    width: 30rem;
+  }
+  .box form {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    margin: 15vh 0 0 0;
+    padding: 0;
+  }
+
+  .tittle-primary h1 {
+    margin: 10px auto;
+  }
+
+  .gender {
+    width: 100%;
+  }
+
+  .gender div {
+    justify-content: space-evenly;
+  }
+
+  .submitButton {
+    margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .box {
+    min-width: 100%;
+  }
+}

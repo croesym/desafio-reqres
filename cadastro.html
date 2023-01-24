@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/cadastro.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/logo-reqres.png" alt="logo" />
+    </header>
+
+    <div class="container">
+      <div class="box">
+        <h1 class="title-primary">Cadastro</h1>
+        <form id="register">
+          <div class="name">
+            <h3 class="content-primary" for="name">Nome Completo</h3>
+            <input type="text" name="name" id="name" placeholder="" />
+          </div>
+
+          <div class="email">
+            <h3 class="content-primary" for="username">E-mail</h3>
+            <input type="text" id="email" name="email" placeholder="" />
+            <p class="error-message"></p>
+          </div>
+
+          <div class="state">
+            <h3 class="content-primary" for="state">Estado</h3>
+            <select id="state" name="estado"></select>
+          </div>
+
+          <div class="gender">
+            <h3 class="content-primary" for="gender">Sexo</h3>
+
+            <div>
+              <input type="radio" id="male" name="sex" value="male" />
+              <label class="content-primary" for="male">Masculino</label>
+
+              <input type="radio" id="female" name="sex" value="female" />
+              <label class="content-primary" for="female">Feminino</label>
+
+              <input type="radio" id="other" name="sex" value="other" />
+              <label class="content-primary" for="other">Outro</label>
+            </div>
+          </div>
+
+          <div class="password">
+            <h3 class="content-primary" for="password">Senha</h3>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder=""
+            />
+            <p>A senha deve ter no mínimo 6 caracteres.</p>
+          </div>
+
+          <div class="password-confirm">
+            <h3 class="content-primary" for="passwordcheck">Confirmar senha</h3>
+            <input
+              type="password"
+              id="passwordcheck"
+              name="passwordcheck"
+              placeholder=""
+            />
+          </div>
+        </form>
+        <button
+          class="submitButton"
+          type="submit"
+          form="register"
+          id="regbutton"
+        >
+          CADASTRAR
+        </button>
+        <h4 class="content-gray">
+          Já possui conta?<a href="./index.html" class="botao"> Entre aqui</a>
+        </h4>
+      </div>
+    </div>
+    <script src="js/cadastro.js"></script>
+  </body>
+</html>

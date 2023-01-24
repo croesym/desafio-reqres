@@ -1,0 +1,37 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+
+  width: 25rem;
+  height: 25rem;
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+}
+
+#login-tittle {
+  margin: revert;
+}
+
+input {
+  width: 15.625rem;
+  height: 1rem;
+  border: 1px solid #174dba;
+  border-radius: 0.25rem;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+#loginbutton {
+  margin: 0px 0px 20px 0px;
+}
+
+#login-error {
+  font-size: 16px;
+  font-weight: 500;
+}
