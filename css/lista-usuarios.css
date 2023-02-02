@@ -52,3 +52,20 @@ h1 {
   filter: grayscale(100%);
   transition: all 500ms;
 }
+
+@media only screen and (max-width: 768px) {
+  .cards-container {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .card {
+    width: calc(100% - 20px);
+  }
+}

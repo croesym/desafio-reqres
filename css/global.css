@@ -77,3 +77,22 @@ a {
   text-decoration: none;
   color: #174dba;
 }
+
+@media only screen and (max-width: 768px) {
+  header {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header img {
+    width: 50%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  header {
+    width: 100vw;
+  }
+}
